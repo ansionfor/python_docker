@@ -1,17 +1,6 @@
-
-
-# 自动创建Mysql/Redis实例
-
-项目描述
-
-<!-- PROJECT SHIELDS -->
-
-<!-- PROJECT LOGO -->
-<br />
-
 <p align="center">
 
-  <h2 align="center">基于Flask Web + Docker</h3>
+  <h2 align="center">基于Flask Web + Docker的数据库资源申请项目</h3>
   <p align="center">
     通过restful api申请mysql、redis资源
     <br />
@@ -28,6 +17,7 @@
   - [Docker镜像](#docker镜像依赖)
   - [Python库依赖](#python库依赖)
 - [安装步骤](#安装步骤)
+- [流程图](#流程图)
 - [文件目录说明](#文件目录说明)
 - [项目特性](#项目特性)
 - [接口文档](#接口文档)
@@ -103,6 +93,13 @@ source init.sql
 ```
 python3 main.py
 ```
+
+<br>
+
+## 流程图
+![image](https://github.com/ansionfor/python_docker/blob/main/desc.png)
+
+<br>
 
 ## 文件目录说明
 
