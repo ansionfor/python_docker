@@ -75,7 +75,7 @@ docker pull redis:5.0
 git clone https://github.com/ansionfor/python_docker.git
 ```
 
-3、修改mysql数据配置(config/mysq.ini)
+3、修改mysql配置(config/mysq.ini)
 ```
 [mysql]
 host=127.0.0.1
