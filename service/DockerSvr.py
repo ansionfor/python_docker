@@ -38,7 +38,7 @@ class DockerSvr(MysqlHandle):
         # 入库
         info = {}
         info['host'] = '127.0.0.1'
-        info['user'] = userName
+        info['user'] = 'root'
         info['pwd'] = pwd
         info['port'] = newPort
         info['dockerId'] = dockerId
@@ -78,7 +78,6 @@ class DockerSvr(MysqlHandle):
         # 入库
         info = {}
         info['host'] = '127.0.0.1'
-        info['user'] = userName
         info['pwd'] = pwd
         info['port'] = newPort
         info['dockerId'] = dockerId
