@@ -162,7 +162,7 @@ curl -X GET -H "Authorization:user1" 127.0.0.1:5000/list/1
     "msg":"success",
     "data":{
         "host":"127.0.0.1",
-        "user":"mysql-2001",
+        "user":"root",
         "pwd":56903401,
         "port":2001,
         "dockerId": "6aecdcdf980b"
@@ -196,7 +196,6 @@ curl -X POST -H "Authorization:user1" -H "Content-Type:application/json" 127.0.0
     "msg":"success",
     "data":{
         "host":"127.0.0.1",
-        "user":"redis-2001",
         "pwd":56903401,
         "port":2002,
         "dockerId": "6aecdcdf980b"
@@ -225,7 +224,7 @@ curl -X POST -H "Authorization:user1" -H "Content-Type:application/json" 127.0.0
             "pwd":71880651,
             "host":"127.0.0.1",
             "port":2006,
-            "user":"mysql-2006",
+            "user":"root",
             "dockerId":"6aecdcdf980b"
         }
     ]
@@ -253,7 +252,7 @@ curl -X GET -H "Authorization:user1" 127.0.0.1:5000/list/1
         "pwd":71880651,
         "host":"127.0.0.1",
         "port":2006,
-        "user":"mysql-2006",
+        "user":"root",
         "dockerId":"6aecdcdf980b"
     }
 }
