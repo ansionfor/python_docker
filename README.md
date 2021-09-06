@@ -56,14 +56,8 @@
 
 1. 安装依赖库
 ```sh
-# 安装flask
-pip3 install flask
-
-# 安装flask_restful
-pip3 install flask_restful
-
-# 安装mysql
-pip3 install PyMySQL
+# 安装python依赖
+pip3 install -r requirements.txt
 
 # 安装docker 镜像（mysql、redis）
 docker pull mysql:8.0
