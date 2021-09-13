@@ -56,7 +56,7 @@
 
 1. 安装依赖库
 ```sh
-# 安装python依赖
+# 安装python依赖（推荐使用pyenv虚拟环境）
 pip3 install -r requirements.txt
 
 # 安装docker 镜像（mysql、redis）
