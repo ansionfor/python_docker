@@ -19,7 +19,7 @@ class DockerSvr(MysqlHandle):
         userName = "mysql-{}".format(newPort)
         shell = (
         "docker run -itd --name {} -p {}:3306 -e MYSQL_ROOT_PASSWORD={} mysql:8.0 "
-        "--character-set-server={} --collation-server={}"
+        "--character-set-server={} --collation-server={} --default-authentication-plugin=mysql_native_password"
         ).format(userName, newPort, pwd, charset, collation)
 
         # 创建docker
