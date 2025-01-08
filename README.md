@@ -2,7 +2,7 @@
 
   <h2 align="center">基于Flask Web + Docker的数据库资源申请项目</h3>
   <p align="center">
-    通过restful api申请mysql、redis资源
+    通过Restful Api申请Mysql、Redis资源
     <br />
     <br>
   </p>
