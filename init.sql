@@ -15,7 +15,7 @@ create table user_docker_list(
 	`deleted`     TINYINT(4)   NOT NULL DEFAULT 0 COMMENT '是否删除 0未删除 1已删除',
 	primary key (`id`),
 	KEY `k_user_id` (`user_id`)
-) engine = INNODB charset = utf8 COLLATE utf8_general_ci COMMENT = '用户docker表';
+) engine = INNODB charset = utf8mb4 COLLATE utf8_general_ci COMMENT = '用户docker表';
 
 create table config(
 	`id` Int AUTO_INCREMENT COMMENT 'id',
