@@ -24,7 +24,7 @@ create table config(
 	`intval` int not null comment '整型值',
 	primary key (`id`),
 	unique key `name` (`name`)
-) engine = INNODB charset = utf8 COLLATE utf8_general_ci COMMENT = '配置表';
+) engine = INNODB charset = utf8mb4 COLLATE utf8_general_ci COMMENT = '配置表';
 
 insert into config values (null, 'max_used_port', '{}', 2000);
 
